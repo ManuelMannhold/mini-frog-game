@@ -4,11 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js" defer></script>
 </head>
 <body>
-    <div id="content"></div>
+        <div id="content">
+            <div id="hud">
+                <div id="score">Punkte: <span id="score-val">0</span></div>
+                <div id="instructions">Klicke auf Fliegen, um sie mit der Zunge zu fangen.</div>
+            </div>
+            <canvas id="game"></canvas>
+        </div>
     
 </body>
 </html>
